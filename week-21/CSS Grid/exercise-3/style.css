@@ -1,0 +1,59 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: violet;
+    width: 100%;
+    height: 80px;
+}
+
+nav {
+    margin: 0 60px;
+    height: 100%;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul li {
+    background-color: Cyan;
+    width: 80px;
+    height: 30px;
+    list-style: none;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin:10px 50px;
+}
+
+aside{
+    background-color: green;
+    grid-column: 1/2;
+    height: 600px; /* just for imagination */
+}
+
+main{
+    background-color: yellow;
+    grid-column: 2/4;    
+}
+
+footer{
+    background-color: grey;
+    height: 60px;
+    grid-column: 1/4;
+}

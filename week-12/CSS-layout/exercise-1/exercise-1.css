@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{   
+    margin:25px; 
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    width: 100px;
+}
+    
+.green {
+    background-color: greenyellow;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.purple {
+    background-color: violet;
+}

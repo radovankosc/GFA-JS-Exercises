@@ -1,0 +1,59 @@
+h1{
+    color: aquamarine;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+	display: flex;
+	padding: 0px;
+	justify-content: start;
+	list-style: none;
+}
+
+li{
+    color: indigo;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+thead {
+	background-color: black;
+	color: white;
+}
+.column1 {
+	width: 450px;
+	padding-left: 20px;
+}
+.column2 {
+	text-align: center;
+	width: 150px;
+}
+
+h2 {
+	margin: 10px;
+}
+table td {
+	background: repeat;
+}
+tbody tr:nth-child(odd) {
+	background-color: lightgrey;
+}
+
+table, th, td {
+    border: 1px solid;
+	border-collapse: collapse;
+}  
+
+thead tr th:first-child {
+    border: 1px solid;
+	border-color: black;
+}
+
+thead tr th:last-child {
+    border: 1px solid;
+	border-color: black;
+}

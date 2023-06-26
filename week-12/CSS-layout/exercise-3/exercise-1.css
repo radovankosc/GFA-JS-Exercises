@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    margin: 20px;
+    height: 25vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    }
+
+.item{
+    margin-right: 5px;
+    height: 60px;
+    width: 60px;
+    background-color: purple;
+
+}

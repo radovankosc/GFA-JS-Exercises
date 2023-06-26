@@ -1,0 +1,79 @@
+body{
+    margin-top: 0;
+}
+header{
+    width: 1300px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+} 
+img{
+    width: 1300px;
+    height: 400px;
+    z-index: -1;    
+}
+h1,h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    right: 40px;
+    z-index: 1;
+}
+h1{
+    top: 250px;
+    font-size: 30px;    
+}
+h2{
+    top: 270px;
+    font-size: 50px;
+}
+main{
+    left: 20%;
+    right: 20%;   
+    width: 1000px;
+    margin: auto;    
+    overflow: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.underHeader{
+    font-size: medium;   
+}
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ul{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.Citation{
+    background-color: cadetblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;    
+} 
+.Title{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.SubTitle{
+    font-weight: bold;
+    margin-bottom: 0px;    
+}
+.UnderTitle{
+    font-style: italic;
+    font-size: medium;
+    margin-top: 0px;   
+}
+hr{
+    width: 99%;
+    color:cadetblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

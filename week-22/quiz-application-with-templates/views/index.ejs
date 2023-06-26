@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz application</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>SCORE:<span id="score-number"></span></h1>
+    <div class="main" id="main-div">
+        <!-- let result = {id: questions[0].id, questions: questions[0].question, answers : answers} -->        
+        <h2>Question</h2>
+            <h3> <%=questions %> </h3> 
+            <% for(let myAnswer of answers) { %>
+                <button class="option"><%= myAnswer.answer %></button>
+                <!-- answers is array of objects returned from SQL  -->
+                <!-- myAswer is object returned from SQL  -->
+                <!-- answer is column from SQL  -->            
+            <% } %>
+    </div>
+    <a href="/questions">Manage questions</a>
+    
+    <script src="/index.js"></script>
+</body>
+</html>

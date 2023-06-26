@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(199, 197, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+#main-div{
+    margin-top: 200px;
+    height: 500px;
+    width: 600px;
+    border: 0px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 1px gray;
+    display: flex;
+    padding: 30px;
+}
+
+div{
+    padding:10px;
+}
+
+.side-div{
+    flex: 3 0 260px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+#or-div{
+    background-color: rgb(150, 147, 147);
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 40px;
+    flex: 1 0 40px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button, input{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 40px;
+    border: 0px;
+} 
+
+button{
+    border-radius: 5px;
+    color: white;
+    box-shadow: 3px 3px 10px 1px gray;
+}
+
+h1{
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+input{
+    border-bottom: 1px solid grey;
+}
+
+small{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+#username, #password{
+    border-bottom: 2px solid grey;
+}
+
+input:focus-visible {
+    outline: 0px;
+}
+
+#username:focus, #email:focus, #password:focus, #password2:focus {
+    border-bottom: 3px solid green;
+}
+
+#submit{
+    background-color: green;
+}
+
+#fb{
+    background-color: rgb(41, 41, 211);
+}
+
+#twitter{
+    background-color: rgb(77, 119, 233);
+}
+
+#google{
+    background-color: rgb(185, 16, 16);
+}

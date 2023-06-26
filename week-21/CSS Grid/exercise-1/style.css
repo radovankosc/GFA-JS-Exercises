@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#content{
+    height: 200px;
+    width: auto;
+    min-width: 1000px;
+    margin: 10px;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding:10px;
+    grid-column-gap:10px ;
+    color: white;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#left, #middle, #right{
+    padding: 50px;
+}
+
+#left{
+    background-color: yellow;
+    grid-column: 1/2;
+}
+
+#middle{
+    background-color: green;
+    grid-column: 2/5;
+}
+
+#right{
+    background-color: yellow;
+    grid-column: 5/6;
+}

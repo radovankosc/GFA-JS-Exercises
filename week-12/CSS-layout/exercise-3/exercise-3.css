@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    margin: 20px;
+    height: 25vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    }
+
+.item{
+    margin-left: 5px;
+    height: 60px;
+    width: 60px;
+    background-color: purple;
+}

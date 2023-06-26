@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.centrelize{
+    margin-top: 25vh;
+    position: relative;
+    min-width: 40px;
+    width: 400px;
+    min-height: 200px;
+    height: 200px;
+}
+
+.my-div{
+    position: absolute;
+    margin: 0px;
+    background-color: brown;
+    min-width: 400px;
+    width: 400px;
+    min-height: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow:5px 5px 20px 0px gray;
+}
+
+#blue-div{
+    background-color: rgb(93, 93, 187);
+    left:20px;
+    top:20px;
+
+}
+
+#pink-div{
+    display: flex;
+    background-color: pink;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, option, p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+option, p {
+    font-size: medium;
+}
+
+
+
+#movie, #gendre{
+    height: 40px;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+select{
+    border: 0px;
+}

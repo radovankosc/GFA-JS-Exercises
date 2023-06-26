@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsettler</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+        <form action="/signup" method="post">
+            <h1>Subscribe to our newsettler</h1>
+            <label for="name">Full name
+                <br>
+            <input type="text" id="name" placeholder="name" minlength="5" maxlength="20" required autofocus></label>
+            <small class="small" id="small-name" hidden>No name added!</small>
+            <label for="email">Email
+                <br>
+                <input type="email" id="email" placeholder="email" minlength="5"maxlength="40" required ></label>
+                <small class="small" id="small-email" hidden>No email address added!</small>
+                <button type="submit">Sign up!</button>
+        </form>
+        <script src="index.js"></script>
+</body>
+</html>

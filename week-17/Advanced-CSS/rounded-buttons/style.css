@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(58, 58, 148);
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{    
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    color: aliceblue;
+    transition: all 1s;
+    box-shadow: 0px 6px 0px black;
+    border: 5px;
+    text-align: center;
+    padding: auto;
+}
+
+button:hover{
+    transition: 350ms;
+    filter: brightness(110%)
+}
+
+button:active{
+    transition: 350ms;
+    filter: brightness(80%)
+}
+
+.blue {
+    background: linear-gradient(rgb(98, 98, 226), black 95%);
+    border-top: 2px solid rgb(58, 58, 148);
+    border-bottom: 2px solid rgb(58, 58, 148);
+}
+
+.blue:active {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+.green {
+    background: linear-gradient(rgb(10, 197, 72), black 95%);
+    border-top: 2px solid rgb(58, 58, 148);
+    border-bottom: 2px solid rgb(58, 58, 148);
+}
+
+.green:active {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.red {
+    background: linear-gradient(rgb(155, 22, 17), black 95%);
+    border-top: 2px solid rgb(58, 58, 148);
+    border-bottom: 2px solid rgb(58, 58, 148);
+}
+
+.red:active {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bomb defuse</title>
+  </head>
+  <body>
+    <div class="display">10</div>
+    <button>Defuse</button>
+  </body>
+    <script>
+        const display = document.querySelector('.display');
+        const button = document.querySelector('button');
+        
+        // Create a timeout that will set the display to "Bomb exploded" in 10 seconds 
+        //WE ARE SETTING TIMEOUT
+        const bombTimer = setTimeout(() => {
+            display.innerText = 'Bomb exploded'
+        }, 10000)
+        
+        // If you click on the button set the display to "Bomb defused" and stop the timeout
+        button.addEventListener('click', () => {
+        clearTimeout(bombTimer);//stop the timeout
+        clearInterval(countdownId);
+        button.innerText = "Bomb defused";
+        })
+
+        // Extra: create an interval which will update the remaining seconds in the display
+
+        //WE ARE SETTING INTERVAL
+        let timer = display.innerText;//10
+        let countdownId = 0;
+        function start() {
+                    //Start clock
+                    countdownId = setInterval("countdown()", 1000);
+                }
+        function countdown(){
+                    if(timer > 0){
+                        timer = timer - 1;
+                        display.innerText = timer;
+                    }
+                    else {
+                        //Stop clock
+                        clearInterval(countdownId);
+                    }
+                }
+        start();
+        countdown();
+    </script>
+</html>

@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+select{
+    height: 100px;
+    width: 100px;
+    flex-direction: column;     
+}
+
+div{
+    height: 100px;
+    width: 100px;
+}
+
+button{
+    height: 25px;
+    width: 100px;
+}
+
+

@@ -1,0 +1,11 @@
+let dailyHours = 6;
+let semester = 17;
+let daysInWeek = 5;
+let hoursInSemester = semester*dailyHours*daysInWeek;
+console.log("I code "+ hoursInSemester + " in semester.");
+let day = 24;
+let weekHours = day*7;
+let weekHoursPercentage = weekHours/100;
+let weekCodingHours = 52;
+var percentageHoursAWeek = weekCodingHours/weekHoursPercentage;
+console.log("Percentage of coding hours in week is " + Math.ceil(percentageHoursAWeek) + " %");

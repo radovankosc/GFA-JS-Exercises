@@ -1,0 +1,120 @@
+body{
+    background-color: darkslategrey;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+
+span{
+    background-color: darkslategrey;
+    margin: 40%;
+    width: 150px;
+    min-width: 150px;
+    height: 50px;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: gray;
+
+}
+
+#delete-note {
+    display: none ;
+}
+
+#sure-note, #delete-note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding:0px;
+}
+
+p{
+    margin: 0px;
+    display: inline-block;
+}
+
+.arrow-right{
+    margin: 0px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#sure-note{
+    width:100px;
+    height: 50px;
+    background-color: green;
+    border-radius: 5px;
+    color: azure;
+    font-size:20px;
+    text-align: start; 
+    justify-content: center;
+    display: none;
+}
+
+#sure-icon{
+    display: none;
+}
+
+#delete-note{
+    width:100px;
+    height: 50px;
+    background-color: red;
+    border-radius: 5px;
+    color: azure;
+    font-size:20px;
+    text-align: start; 
+    justify-content: center;
+    display: none;
+}
+
+/* when howering over button */
+
+#delete:hover+#sure-note{
+    display: block; 
+}
+
+#delete:hover>#delete-icon{
+    display:none
+}
+
+#delete:hover>#sure-icon{
+    display: block;
+    color:green;
+}
+
+/* when pressing button */
+
+#delete:active>#sure-icon{
+    display:none
+}
+
+#delete:active+#sure-note{
+    display:none
+}
+
+#delete:active>#delete-icon{
+    display:block;
+    color:red
+}
+
+#delete:active~#delete-note{
+    display: block;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;    
+    border-left: 6px solid grey;
+}  
+

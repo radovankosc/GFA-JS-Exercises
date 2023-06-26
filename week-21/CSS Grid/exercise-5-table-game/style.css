@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+}
+
+#content{
+    background-color: aqua; /* For Imagination*/
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.pitch{
+    background-color: rgb(255, 196, 0);
+    grid-column: span 1 ;
+    grid-row: span 1 ;
+    border: 2px solid black;
+}
+
+.rotate {
+    transform: rotate(-45deg);
+}
+
+#table{
+    background-color: green;
+    grid-column: 2/7;
+    grid-row: 2/6;
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9);
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    text-align: center;    
+}
+
+#cards{
+    color: aliceblue;
+    background-color: blueviolet;
+    width: 45%;
+    height: 45%;
+    margin-right: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

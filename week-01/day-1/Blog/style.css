@@ -1,0 +1,61 @@
+body{font-family:Tahoma;
+   margin:0%;
+   }
+header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: #333333;
+    height: 50px;
+}
+h1{font-size: xx-large;
+    font-weight: 100;
+    margin-top: 2px;
+    position: absolute;
+    padding-left: 20%;
+}
+#content{
+    position: absolute;
+    top: 50px;
+    padding-left: 20%; 
+   padding-right: 20%;
+}
+h2{
+    font-size: medium;
+    font-weight: 100;
+    margin-top: 10px;
+}
+h3{
+    font-size: small;
+    font-weight: bold;
+    margin-top:10px ;
+    margin-bottom: 0px;
+}
+input{
+    margin-top: 10px;
+}
+.box{
+    margin-top: 10px;
+    padding: 10px;
+    float: left;
+    border: 1px solid black;
+}
+button{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.top{
+    font-size: xx-large;
+    margin:0px;
+    padding:0px
+}
+.postText{
+    margin: 0px, 20px;
+    padding: 0;
+}
+    
+
+

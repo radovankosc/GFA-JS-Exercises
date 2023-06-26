@@ -1,0 +1,116 @@
+/* The layout should have a fixed maximum width
+The green sidebar should have a fixed width
+The yellow main area should fill all available space
+There should be 4 of the red list item squares next to each other but their width can be flexible
+You can use any lorem ipsum generator for texts instead of the lines */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 10px 30px;
+    max-width: 700px;    
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-menu{
+    display: flex;
+    column-gap: 10px;
+    padding-left: 10px;    
+}
+
+.left-menu li {
+    height: 40px;
+    width: 120px;
+    background-color: aqua;
+    display: inline;
+}
+
+.right-menu{
+    display: flex;
+    column-gap: 10px;
+    padding-right: 10px;    
+}
+
+.right-menu li {
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+    display: inline;
+}
+
+main{
+    height: fit-content;
+    width: 60%;
+    background-color: yellow;
+    float: left;
+    padding: 20px;
+    
+}
+
+.red-squares {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;   
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.red-squares li{
+    width: 100px;
+    height: 100px;
+    background-color: red;  
+    display: inline; 
+    flex-grow: 1;
+}
+
+.red-squares:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+section, aside{
+    float: left;
+    width: 48%;
+    padding:1%
+}
+
+.aside-bar {
+    height: fit-content;
+    width: 40%;
+    background-color: green;
+    float: left;   
+}
+
+.violet-menu{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;   
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;  
+    flex-flow: column;
+    row-gap: 10px ;
+}
+
+.violet-menu li{
+    width: 150px;
+    height: 30px;
+    background-color: blueviolet; 
+    display: block;
+}
+

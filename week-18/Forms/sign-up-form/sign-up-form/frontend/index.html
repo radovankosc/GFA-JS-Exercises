@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-div">
+    <div class="side-div">
+            <form class="side-div" action="/signup" method="post">
+            <h1>Sign up</h1>
+            <input class="input-text" id="username" type="text" placeholder="Username" autofocus>
+            <small id="err-username"></small>
+            <input class="input-text" id="email" type="email" placeholder="E-mail">
+            <small id="err-email"></small>
+            <input class="input-text" id="password" type="password" placeholder="Password">
+            <small id="err-password"></small>
+            <input class="input-text" id="password2" type="password" placeholder="Retype password">
+            <small id="err-password2"></small>
+            <button id="submit" type="submit">SIGN ME UP</button>
+        </form>
+        </div>
+        <div id="or-div">
+            <p>OR</p>
+        </div>
+        <div class="side-div">
+            <button id="fb">Log in with facebook</button>
+            <button id="twitter">Log in with Twitter</button>
+            <button id="google">Log in with Google</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

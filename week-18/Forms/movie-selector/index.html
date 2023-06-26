@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie selector</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="centrelize">
+
+        <div class="my-div" id="blue-div"></div>
+        <div class="my-div" id="pink-div">
+            <form>
+            <h1>Movie Selector</h1>
+            <div>
+                <select name="gendre" id="gendre">Select
+                    <option value="select" selected>Select a gendre</option>
+                    <option value="scifi">Scifi</option>
+                    <option value="drama">Drama</option>
+                    <option value="comedy">Comedy</option>
+                </select> 
+                
+                <select name="movie" id="movie">
+                    <option value="select" selected>Select a movie</option>
+                    <option class="scifi" value="Moon">Moon</option>
+                    <option class="scifi" value="2001: A Space Odyssey">2001: A Space Odyssey</option>
+                    <option class="drama" value="Contact">Contact</option>
+                    <option class="drama" value="Darkest Hour">Darkest Hour</option>
+                    <option class="scifi" value="There Will Be Blood">There Will Be Blood</option>
+                    <option class="comedy" value="American Beauty">American Beauty</option>
+                    <option class="drama" value="Airplane!">Airplane!</option>
+                    <option class="comedy" value="Deadpool">Deadpool</option>
+                    <option class="comedy" value="Wayne's World">Wayne's World</option>
+                </select>
+            </div>
+            <div class="footer">
+                <p>The selected movie is: </p>
+                <p id="placeholder">Not selected</p>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="app.js"></script>
+    
+</body>
+</html>

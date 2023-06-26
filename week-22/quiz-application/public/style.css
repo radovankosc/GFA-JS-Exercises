@@ -1,0 +1,120 @@
+*{font-family: 'Times New Roman', Times, serif;}
+
+body{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    background-color: white;
+    padding: 30px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+hr{
+    size: 2px;
+    color: black;
+    width: 400px;
+}
+
+.option{
+    height: 50px;
+    width: 400px;
+    margin: 5px;
+    background-color: rgb(74, 74, 221);
+    border: 0px;
+    color: white;
+}
+
+a{
+    color: rgb(74, 74, 221);
+    text-decoration: none;
+    margin: 10px;
+}
+
+.correct {
+    background-color: rgb(40, 179, 119);
+}
+
+.selected {
+    background-color: rgb(238, 176, 60);
+}
+
+.wrong {
+    background-color: rgb(232, 69, 69);
+}
+
+#manage-questions{
+    height: auto;
+    display: flex;    
+}
+
+.deleted-button{
+    background-color: white;
+    color: red;
+    width: 50px;  
+    border: 0px;  
+}
+
+.div-quest{
+    display: flex;
+}
+
+.div-question{
+    width: 350px;
+}
+
+#create-question{
+    display: flex; 
+}
+
+.options{
+    display: flex;
+    margin: 10px;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    font-size: large;
+}
+
+#question{
+    width: 380px;
+}
+
+.input-radio{
+    width: 20px;
+}
+
+label{
+    margin-right: 10px;
+    font-size: x-large;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#submit{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(74, 74, 221);
+    border: 0px;
+    color: white;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+  
+

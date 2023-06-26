@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktails</title>
+    <link rel="stylesheet" href="static/cocktails-style.css">
+</head>
+<body>
+    <h1>Cocktails</h1>
+        <% if (drinks.length === 0) { %>
+        <a> No drinks </a>
+        <% } else { %>
+            <ul>
+                <li>all</li>           
+            
+        <% drinks.forEach(item => { %>
+                <li><%= item %></li>
+        <% }) %>
+            </ul>    
+        <% }; %>
+    
+    <table>
+        <thead>            
+            <tr>
+                <th class="column1">Name</th>
+                <th class="column2">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% content.forEach( item =>{%> 
+                <tr>
+                    <td class="column1">
+                        <h3><%= item.name%></h3>
+                        <p><%= item.contains%></p>
+                    </td>
+                    <td class="column2"><%= item.price%> Ft</td>
+                </tr>
+                <%}) %>                
+                
+        </tbody>
+    </table>
+</body>
+</html>

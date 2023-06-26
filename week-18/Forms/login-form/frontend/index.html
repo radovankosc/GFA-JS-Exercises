@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Login Form</title>
+    <script
+      src="https://kit.fontawesome.com/55224b17a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="login-form">
+      <form id="my-form" action="/logged" method="post">
+        <p>ACCOUNT LOGIN</p>
+        <div class="form-group">
+          <label for="username-input">USERNAME</label>
+          <input
+            type="text"
+            name="USERNAME"
+            id="username-input"
+            autofocus
+            required
+            maxlength="15"
+            minlength="5"
+            placeholder="username"
+          />
+        </div>
+        <div class="form-group">
+          <label for="password-input">PASSWORD</label>
+          <input
+            type="password"
+            name="PASSWORD"
+            id="password-input"
+            requited
+            maxlength="10"
+            minlength="5"
+            placeholder="*****"
+          />
+          <i class="fa-solid fa-eye eye-icon" id="eye-icon"></i>
+        </div>
+        <a href="forgotten-password.html">Forgot Password?</a>
+        <button type="submit" id="login-button">Login</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

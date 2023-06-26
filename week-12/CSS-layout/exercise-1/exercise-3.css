@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{   
+    margin:25px; 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.item{
+    height: calc(100vw / 3);
+    
+}
+    
+.green {
+    background-color: greenyellow;
+    flex-grow: 1;
+}
+
+.yellow {
+    background-color: yellow;
+    flex-grow: 2;
+}
+
+.purple {
+    background-color: violet;
+    flex-grow: 1;
+}

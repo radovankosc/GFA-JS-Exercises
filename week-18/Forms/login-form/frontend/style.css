@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(224, 217, 217);
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+#login-form{
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+}
+
+a, label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    margin: 0px;
+}
+
+input{ 
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: greenyellow;
+}
+
+a{
+    text-align: end;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+button{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(49, 48, 48);
+    border: 0px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 25px;
+}
+
+
+#eye-icon{
+    position: relative;
+    left:185px;
+    bottom:23px;
+}
+
+
+

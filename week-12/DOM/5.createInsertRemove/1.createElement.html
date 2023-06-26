@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Workshop: CreateElement</title>
+  </head>
+  <body>
+    <ul class="asteroids">
+      <li id="b325" class="asteroid">The King</li>
+      <li class="asteroid b326">The Conceited Man</li>
+    </ul>
+    <div class="container"></div>
+    <script>
+      // Add an item that says 'The Green Fox' to the asteroid list.
+      // Add an item that says 'The Lamplighter' to the asteroid list.
+      // Add a heading saying 'I can add elements to the DOM!' to the .container.
+      // Add an image, any image, to the container.
+      'use strict';
+      let parentAsteroid = document.querySelector("ul.asteroids");      
+      // let parentAsteroid = document.getElementsByName("ul")[0];   
+      let gf = document.createElement("li")
+      gf.textContent = "The Green Fox";
+      parentAsteroid.appendChild(gf);
+
+      let lamplighter = document.createElement("li");
+      lamplighter.textContent = "The Lamplighte";
+      parentAsteroid.appendChild(lamplighter);
+
+      let heading = document.createElement("h1");
+      heading.textContent = "I can add elements to the DOM!";
+      let container = document.querySelector(".container");
+      container.appendChild(heading);
+      
+      let myImage = document.createElement("img");
+      myImage.setAttribute("src", "https://images.freecreatives.com/wp-content/uploads/2016/03/Charming-Hippie-background.jpg");
+      container.appendChild(myImage);
+
+    </script>
+  </body>
+</html>

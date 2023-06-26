@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{   
+    padding:20px; 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+    
+.green {
+    background-color: greenyellow;
+    flex-grow: 1;
+}
+
+.yellow {
+    background-color: yellow;
+    flex-grow: 2;
+    order: -2;
+}
+
+.purple {
+    background-color: violet;
+    flex-grow: 1;
+    order: -1;
+}

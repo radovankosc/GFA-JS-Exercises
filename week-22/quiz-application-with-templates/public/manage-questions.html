@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz application</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Manage questions</h1>
+    <div class="main" id="manage-questions">
+        
+    </div>
+    <h1>Create a new question</h1>
+    <div class="main" id="create-question">
+        <form id="question-form">
+            <input class="question" id="question" type="text" placeholder="Type your question here" required autofocus>
+            <h2>Answers</h2>
+            <div class="options">
+                <label for="answer1">#1</label>
+                <input class="answer" id="answer1" type="text" placeholder="Type your answer here" required >
+                <input class="input-radio" type="radio" name="radio" id="answer1-is-correct" required>
+            </div>
+            <div class="options">
+                <label for="answer2">#2</label>
+                <input class="answer" id="answer2" type="text" placeholder="Type your answer here" required >
+                <input class="input-radio" type="radio" name="radio" id="answer2-is-correct">
+            </div>
+            <div class="options">
+                <label for="answer3">#3</label>
+                <input class="answer" id="answer3" type="text" placeholder="Type your answer here" >
+                <input class="input-radio" type="radio" name="radio" id="answer3-is-correct">
+            </div>
+            <div class="options">
+                <label for="answer1">#4</label>
+                <input class="answer" id="answer4" type="text" placeholder="Type your answer here" >
+                <input class="input-radio" type="radio" name="radio" id="answer4-is-correct">
+            </div>
+            <button id="submit" type="submit">SUBMIT</button>
+        </form>        
+    </div>
+    <a href="/game">Go back to the game</a>       
+    <script src="manage-question.js"></script>
+</body>
+</html>

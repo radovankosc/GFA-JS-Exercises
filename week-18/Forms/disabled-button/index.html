@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disabled Button</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Questionaire</legend>
+      <form id="my_form">
+        <p>What is your favourite pet?</p>
+        <div id="pet">
+          <label for="dog">
+            <input type="radio" name="responce_for_pet" id="dogRadio" value="dog"/>Dog</label
+          >
+          <br />
+          <label for="cat">
+            <input type="radio" name="responce_for_pet" id="catRadio" value="cat" />Cat</label
+            >
+            <br />
+            <label for="goldfish">
+            <input type="radio" name="responce_for_pet" id="goldfishRadio" value="fish" />Viktor
+            the goldfish</label
+          >
+        </div>
+        <p>Do you want to sign up for cat facts?</p>
+        <div id="cat_facts">
+          <label for="yes">
+            <input type="radio" name="responce_for_cat_fact" id="yes" value="yes"/>Yes</label
+            >
+            <br>
+            <label for="no">
+              <input type="radio" name="responce_for_cat_fact" id="no" value="no" />No</label
+              >
+            </div>
+            <button id="love_cat" disabled>I love cats</button>
+            <button id="sign" disabled>Sign up</button>
+          </form>
+        </fieldset>
+        
+        <script src="app.js"></script>
+      </body>
+      </html>
+      
